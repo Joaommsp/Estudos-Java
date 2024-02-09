@@ -11,29 +11,41 @@ public class ProcessoSeletivo {
         // // salario base igual que salario pretendido
         // analisarCandidato(1900.0, 2000.0);
 
-        selecaoCandidatos();
-        imprimirSelecionados();
+        // selecaoCandidatos();
+        // imprimirSelecionados();
         ligarParaCandidato();
     }
 
     static void ligarParaCandidato() {
         String[] candidatos = { "FELIPE", "MÁRCIA", "JULIA", "PAULO", "AUGUSTO" };
         int tentativas = 0;
+        Boolean contatoRealizado = false;
 
         for (String candidato : candidatos) {
+
             for (int i = 0; i < 3; i++) {
                 int resposta = ThreadLocalRandom.current().nextInt(0, 5);
-
+                // System.out.println("resposta: " + resposta);
                 if (resposta == 1) {
                     tentativas++;
-                } else if (resposta == 0) {
-                    tentativas++;
+                    contatoRealizado = true;
                     break;
+                } else {
+                    tentativas++;
+                    contatoRealizado = false;
                 }
             }
-            System.out.println(
-                    "CONSEGUIMOS CONTATO COM O CANDIDATO " + candidato + " após " + tentativas + " tentativas");
+
+            if (contatoRealizado) {
+                System.out.println(
+                        "CONSEGUIMOS CONTATO COM O CANDIDATO " + candidato + " após " + tentativas + " tentativas");
+            } else {
+                System.out.println(
+                        "NÃO CONSEGUIMOS CONTATO COM O CANDIDATO " + candidato);
+            }
+
             tentativas = 0;
+
         }
 
     }
