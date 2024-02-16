@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>pacotesexemplo</name>
+	<name>msn_message</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1708114573935</id>
+			<id>1708114573927</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
