@@ -1,7 +1,5 @@
-package maquinas_graficas;
+package esquipamento.digitalizadora;
 
-public class Digitsalizadora {
-	public void imprimir() {
-		System.out.println("DIGITALIZANDO");
-	}
+public interface Digitsalizadora {
+	public void imprimir();
 }

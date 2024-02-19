@@ -1,5 +1,7 @@
-package maquinas_graficas;
+package esquipamento.digitalizadora;
 
-public class Scanner extends Digitsalizadoras{
-
+public class Scanner implements Digitsalizadora{
+	public void imprimir() {
+		
+	}
 }

@@ -1,5 +1,7 @@
-package maquinas_graficas;
+package equipamentos.impressora;
 
-public class DeskJet extends Impressora {
-
+public class DeskJet implements Impressora {
+	public void imprimir() {
+		System.out.println("IMPRIMINDO DASKJET");
+	}
 }

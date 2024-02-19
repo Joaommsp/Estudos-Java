@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>maquinas_graficas</name>
+	<name>todolist</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1708372047977</id>
+			<id>1708372047986</id>
 			<name></name>
 			<type>30</type>
 			<matcher>

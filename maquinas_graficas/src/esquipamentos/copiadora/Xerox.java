@@ -1,5 +1,7 @@
-package maquinas_graficas;
+package esquipamentos.copiadora;
 
-public class Xerox extends Copiadora{
-
+public class Xerox implements Copiadora{
+	public void copiar() {
+		
+	}
 }
