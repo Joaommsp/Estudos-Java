@@ -3,16 +3,24 @@ package msn_message;
 public class PcDoPedrinho {
 	public static void main(String[] args) {
 		//abrindo MSN Messenger
-		MSNMessager msn = new MSNMessager("MSN");
-		msn.enviarMensagem();
-		msn.receberMensagem();
+
+		ServicoMensagem smi = null;
 		
-		Facebook face = new Facebook("FACE");
-		face.enviarMensagem();
-		face.receberMensagem();
+		/*
+		    NÃO SE SABE QUAL APP 
+		    MAS QUALQUER UM DEVERÁ ENVIAR E RECEBER MENSAGEM
+		 */
+		String appEscolhido="msn"; 
 		
-		Telegram tele = new Telegram("TELEGRAM");
-		tele.enviarMensagem();
-		tele.receberMensagem();
+		if(appEscolhido.equals("msn"))
+			smi = new MSNMessager(appEscolhido);
+		else if(appEscolhido.equals("fbm"))
+			smi = new Facebook(appEscolhido);
+		else if(appEscolhido.equals("tlg"))
+			smi = new Telegram(appEscolhido);
+		
+			
+		smi.enviarMensagem();
+		smi.receberMensagem();
 	}
 }

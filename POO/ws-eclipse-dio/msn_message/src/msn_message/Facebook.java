@@ -8,6 +8,7 @@ public class Facebook extends ServicoMensagem{
 	}
 
 	public void enviarMensagem() {
+		validarConectadoInternet();
 		System.out.println("Enviando mensagem pelo facebook");
 	}
 
