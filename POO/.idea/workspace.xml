@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dfefbaea-9d0a-4562-806f-c0b3c0371912" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/bootcamp/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/plataforma/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootcamp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/plataforma/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootcamp/.project" beforeDir="false" afterPath="$PROJECT_DIR$/plataforma/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootcamp/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/plataforma/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootcamp/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/plataforma/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootcamp/src/dominio/Bootcamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/plataforma/src/dominio/Bootcamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootcamp/src/dominio/Conteudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/plataforma/src/dominio/Conteudo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootcamp/src/dominio/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/plataforma/src/dominio/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootcamp/src/dominio/Dev.java" beforeDir="false" afterPath="$PROJECT_DIR$/plataforma/src/dominio/Dev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootcamp/src/dominio/Mentoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/plataforma/src/dominio/Mentoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootcamp/src/dominio/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/plataforma/src/dominio/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crud-live-coding-learning/live-crud-java-spring" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-live-coding-learning/live-crud-java-spring" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2cypvJnruahPRXsQq2rSLryZfFy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/progamação/java/POO/gerenciador"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfefbaea-9d0a-4562-806f-c0b3c0371912" name="Changes" comment="" />
+      <created>1709093903623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709093903623</updated>
+    </task>
+    <servers />
+  </component>
+</project>
