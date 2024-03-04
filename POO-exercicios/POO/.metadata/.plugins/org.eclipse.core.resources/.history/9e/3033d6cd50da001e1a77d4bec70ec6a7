@@ -1,0 +1,48 @@
+package calculadora_media;
+
+import java.util.ArrayList;
+
+public class NotasAluno {
+	
+	private int quantidadeNotas;
+	private Double somaNotas;
+	private ArrayList<Double> notas;
+	
+	public NotasAluno(int quantidadeNotas, Double somaNotas) {
+		super();
+		this.quantidadeNotas = quantidadeNotas;
+		this.somaNotas = somaNotas;
+		this.notas = new ArrayList<>();
+	}
+
+	public int getQuantidadeNotas() {
+		return quantidadeNotas;
+	}
+
+	public void setQuantidadeNotas(int quantidadeNotas) {
+		this.quantidadeNotas = quantidadeNotas;
+	}
+
+	public Double getSomaNotas() {
+		return somaNotas;
+	}
+
+	public void setSomaNotas(Double somaNotas) {
+		this.somaNotas = somaNotas;
+	}
+	
+	public void adicionarNota(Double nota) {
+		for(int i = 0; i < 4 ;i++) {
+			System.out.println("Insira a " + (i+1) + "° nota");
+			this.notas.add(nota);
+			this.quantidadeNotas++;
+			this.somaNotas += nota;
+		}
+	}
+	
+	public Double calcularMedia() {
+		return this.somaNotas / this.quantidadeNotas;
+	}
+	
+	
+}

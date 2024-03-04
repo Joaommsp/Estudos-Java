@@ -1,0 +1,70 @@
+package calculadora_media;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class NotasAluno {
+	
+	private int quantidadeNotas = 0;
+	private Double somaNotas = 0.0;
+	private ArrayList<Double> notas = new ArrayList<>();
+	
+	public NotasAluno() {
+	
+	}
+
+	public NotasAluno(int quantidadeNotas, Double somaNotas) {
+		this.quantidadeNotas = quantidadeNotas;
+		this.somaNotas = somaNotas;
+		this.notas = new ArrayList<>();
+	}
+
+	public int getQuantidadeNotas() {
+		return quantidadeNotas;
+	}
+
+	public void setQuantidadeNotas(int quantidadeNotas) {
+		this.quantidadeNotas = quantidadeNotas;
+	}
+
+	public Double getSomaNotas() {
+		return somaNotas;
+	}
+
+	public void setSomaNotas(Double somaNotas) {
+		this.somaNotas = somaNotas;
+	}
+	
+	public ArrayList<Double> getNotas() {
+		return notas;
+	}
+
+	public void adicionarNota() {
+		Scanner scan = new Scanner(System.in);
+		Double nota = 0.0;
+				
+		for(int i = 0; i < 4 ;i++) {
+			System.out.println("Insira a " + (i+1) + "° nota");
+			nota = scan.nextDouble();
+			this.notas.add(nota);
+			this.quantidadeNotas++;
+			this.somaNotas += nota;
+		}
+		
+		scan.close();
+	}
+	
+	public Double calcularMedia() {
+		return this.somaNotas / this.quantidadeNotas;
+	}
+	
+	public void exibirResultato() {
+		if(this.calcularMedia() >= 7 ) {
+			System.out.println("Aluno Aprovado");
+		}
+		else {
+			System.out.println("Aluno reprovado");
+		}
+	}
+	
+}

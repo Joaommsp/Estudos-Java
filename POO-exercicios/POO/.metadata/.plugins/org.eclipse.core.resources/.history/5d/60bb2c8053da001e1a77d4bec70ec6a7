@@ -1,0 +1,11 @@
+package calculadora_media;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		NotasAluno aluno01 = new NotasAluno();
+		
+		System.out.println(aluno01.calcularMedia());
+		
+	}
+}
