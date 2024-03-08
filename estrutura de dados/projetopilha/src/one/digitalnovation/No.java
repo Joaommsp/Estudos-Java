@@ -5,6 +5,7 @@ public class No {
     private int dado;
     private No refNo = null;
 
+
     public No(int dado) {
         this.dado = dado;
     }
@@ -12,7 +13,6 @@ public class No {
     public int getDado() {
         return dado;
     }
-
     public void setDado(int dado) {
         this.dado = dado;
     }
