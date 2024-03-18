@@ -1,0 +1,16 @@
+package bob_esponja;
+
+public class BobEsponjaGame {
+	public static void main(String[] args) {
+		
+		BobEsponja bobEsponja = new BobEsponja("Bob Esponja");
+		PatrickEstrela patrickEstrela = new PatrickEstrela("Patrick Estrela");
+		
+		bobEsponja.falar();
+		System.out.println("-------");
+		patrickEstrela.falar();
+		
+		bobEsponja.fazerAmizade(patrickEstrela);
+		bobEsponja.getMelhorAmigo();
+	}
+}

@@ -1,0 +1,10 @@
+package controle_missao.controlar;
+
+public class NaveEspacial {
+
+	private String nome;
+	private int qtdTripulantes;
+	private String 
+	
+	
+}

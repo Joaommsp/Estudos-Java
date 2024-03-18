@@ -1,0 +1,20 @@
+package controle_missao.controlar;
+
+public enum Status {
+	 FOGO("Fogo"),
+	 AGUA("Agua"),
+	 ELETRICO("Eletrico"),
+	 TERRA("Terra"),
+	 PREDADOR("Predador")
+	 ;
+	 
+	  private String nome;
+
+	    Tipo(String nome) {
+	        this.nome = nome;
+	    }
+
+	    public String getNome() {
+	        return nome;
+	    }
+}

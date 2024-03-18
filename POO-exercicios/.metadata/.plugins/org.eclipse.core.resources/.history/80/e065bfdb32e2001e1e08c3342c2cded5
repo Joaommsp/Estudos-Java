@@ -1,0 +1,26 @@
+package controle_missao.controlar;
+
+public enum Status {
+	 ORBITA("Nave em órbita"),
+	 SOLO("Nave em solo"),
+	 MANUTENCAO("Nave em manutenção"),
+	 HIPERESPACO("Nave em hiperespaço"),
+	 CRUZEIRO("Nave em velocidade de cruzeiro")
+	 ;
+	 
+	  private String status;
+	  
+	private Status(String status) {
+		this.status = status;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	  
+	  
+}

@@ -1,0 +1,9 @@
+package controle_missao.controlar;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		NaveEspacial nave = new NaveEspacial("Apolo 48", "Base AKM-09");
+		
+	}
+}

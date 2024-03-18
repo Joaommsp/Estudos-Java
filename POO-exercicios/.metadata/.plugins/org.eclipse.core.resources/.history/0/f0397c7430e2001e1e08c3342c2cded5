@@ -1,0 +1,5 @@
+package controle_missao.controlar;
+
+public enum Status {
+
+}

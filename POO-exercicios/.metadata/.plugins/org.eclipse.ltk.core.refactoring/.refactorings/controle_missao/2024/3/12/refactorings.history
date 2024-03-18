@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;controle_missao.controlar.BaseTripulante&apos; to &apos;BaseControle&apos;&#x0D;&#x0A;- Original project: &apos;controle_missao&apos;&#x0D;&#x0A;- Original element: &apos;controle_missao.controlar.BaseTripulante&apos;&#x0D;&#x0A;- Renamed element: &apos;controle_missao.controlar.BaseControle&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BaseTripulante&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;controle_missao.controlar{BaseTripulante.java[BaseTripulante" matchStrategy="1" name="BaseControle" qualified="false" references="true" similarDeclarations="false" stamp="1710781763265" textual="false" version="1.0"/>
+</session>

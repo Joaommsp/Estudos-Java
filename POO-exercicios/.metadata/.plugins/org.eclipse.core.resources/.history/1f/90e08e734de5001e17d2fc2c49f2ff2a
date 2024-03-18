@@ -1,0 +1,10 @@
+package controle_missao.controlar;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		NaveEspacial nave = new NaveEspacial("Apolo 48", Status.SOLO);
+		Tripulante tripulante01 = new Tripulante("João", 21, "Piloto");
+		
+	}
+}

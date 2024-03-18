@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicDesktopIconUI"/>
+    <fullyQualifiedTypeName name="treinamento_pokemon.Treinador"/>
+    <fullyQualifiedTypeName name="treinamento_pokemon.Pokemon"/>
+    <fullyQualifiedTypeName name="treinamento_pokemon.Tipo"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="controle_missao.controlar.NaveEspacial"/>
+    <fullyQualifiedTypeName name="controle_missao.controlar.Tripulante"/>
+    <fullyQualifiedTypeName name="controle_missao.controlar.BaseControle"/>
+    <fullyQualifiedTypeName name="controle_missao.controlar.MissaoEspacial"/>
+    <fullyQualifiedTypeName name="controle_missao.controlar.Status"/>
+    <fullyQualifiedTypeName name="bob_esponja.Personagens"/>
+    <fullyQualifiedTypeName name="bob_esponja.BobEsponja"/>
+    <fullyQualifiedTypeName name="bob_esponja.PatrickEstrela"/>
+</qualifiedTypeNameHistroy>

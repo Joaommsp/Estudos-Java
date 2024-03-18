@@ -1,0 +1,13 @@
+package bob_esponja;
+
+public class Personagens {
+	private String nome;
+	private Personagens melhorAmigo;
+	
+	public Personagens(String nome) {
+		super();
+		this.nome = nome;
+	}
+	
+	
+}

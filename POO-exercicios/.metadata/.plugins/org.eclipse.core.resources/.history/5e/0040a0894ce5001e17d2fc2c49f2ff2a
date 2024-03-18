@@ -1,0 +1,11 @@
+package controle_missao.controlar;
+
+public class BaseControle {
+	
+	private String nome;
+	private String localizacao;
+	private String responsavel;
+	
+		
+	
+}
