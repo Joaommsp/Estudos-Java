@@ -46,10 +46,7 @@ public class Pilha {
         stringRetorn += "---------------\n";
 
         No noAuxiliar = refNoEntradaPIlha;
-
-        while (true) {
-            if(noAuxiliar != null) {
-                stringRetorn += "[No{dado = " + noAuxiliar.getDado() + "}]\n";
+projeto liar.getDado() + "}]\n";
                 noAuxiliar = noAuxiliar.getRefNo();
             }
             else {
