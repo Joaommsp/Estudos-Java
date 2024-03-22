@@ -4,17 +4,16 @@ public class Produto {
 
 	String nome;
 	double preco;
-	double desconto;
+	static double desconto = 0.25;
 
 	public Produto() {
 		
 	}
 	
-	public Produto(String nome, double preco, double desconto) {
+	public Produto(String nome, double preco) {
 		super();
 		this.nome = nome;
 		this.preco = preco;
-		this.desconto = desconto;
 	}
 	
 	double precoComDesconto() {
@@ -25,5 +24,8 @@ public class Produto {
 		return preco * (1- desconto + descontoDoGerente);
 	}
 	
+	void alterarDesconto(double novoDesconto) {
+		desconto = novoDesconto;
+	}
 	
 }
