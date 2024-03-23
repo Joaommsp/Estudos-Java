@@ -7,7 +7,7 @@ public class Data {
 	int ano = 1970;	
 		
 	public Data() {
-		super();
+		this(1,1,1900);
 	}
 
 	public Data(int dia, int mes, int ano) {
