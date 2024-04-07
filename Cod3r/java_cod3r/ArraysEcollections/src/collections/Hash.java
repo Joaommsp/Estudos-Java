@@ -5,7 +5,10 @@ import java.util.HashSet;
 public class Hash {
 	public static void main(String[] args) {
 		
-			HashSet<Usuario>
+			
+			HashSet<Usuario> usuarios = new HashSet<Usuario>();
+			
+			usuarios.add(new  Usu)
 		
 	}
 }
