@@ -1,4 +1,8 @@
-package heranca.desafio;
+package heranca.desafio.teste;
+
+import heranca.desafio.Carro;
+import heranca.desafio.carros.Civic;
+import heranca.desafio.carros.Ferrari;
 
 public class Testes {
 
