@@ -24,7 +24,10 @@ public class Carro {
 		return velocidade;
 	}
 
-
+	public void setVelocidade(double velocidade) {
+		this.velocidade = velocidade;
+	}
+	
 	public void acelerar() {
 		
 		this.velocidade += aceleracao;
@@ -43,8 +46,5 @@ public class Carro {
 			}
 		
 	}
-	
-	
-	
 	
 }
