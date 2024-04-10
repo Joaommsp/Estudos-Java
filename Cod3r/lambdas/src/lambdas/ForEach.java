@@ -16,7 +16,6 @@ public class ForEach {
 			System.out.println(nome);
 		}
 		
-		
 		System.out.println("\nLambda #01...");
 		
 		aprovados.forEach(nome -> System.out.println(nome + "!!!"));
