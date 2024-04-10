@@ -11,13 +11,12 @@ public class Funcao {
 				
 		System.out.println(parOuImpar.apply(32));
 		
-		
 		Function<Integer, String> oResultadoE = 
 				valor -> "O resultado é: " + valor;
 				
-		String resultadoFinal = parOuImpar.andThen(resultadoFinal).apply(32);
+		//String resultadoFinal = parOuImpar.andThen(oResultadoE).apply(32);
 		
-				System.out.println(resultadoFinal);
+				//System.out.println(resultadoFinal);
 				
 	}
 	
