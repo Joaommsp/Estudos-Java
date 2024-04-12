@@ -18,6 +18,18 @@ public class Produto extends Object{
 		double precoFinal = this.preco *( 1 -  this.desconto);
 		return "Produto [nome= " + this.nome + " preço R$" + this.preco + "]";
 	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public double getPreco() {
+		return preco;
+	}
+
+	public double getDesconto() {
+		return desconto;
+	}
 		
 	
 	
