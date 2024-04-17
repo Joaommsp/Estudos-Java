@@ -24,6 +24,7 @@ public class DesafioFilter {
 		List<Carros> carros = Arrays.asList(c1, c2, c3, c4, c5, c6, c7, c8, c9);
 		
 		Predicate<Carros> motorV8 = c -> c.getQtdCilintros() == 8;
+		
 		Function<Carros, String> veiculoNome = c -> c.getNome();  
 		
 		carros.stream()
